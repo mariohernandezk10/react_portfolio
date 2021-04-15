@@ -4,9 +4,9 @@ import React from 'react';
 function Contact() {
   return (
       <>
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-heading">
+    <section className="contact" id="contact">
+        <div className="container">
+            <div className="section-heading">
                 <h1>Contact</h1>
                 <h6>Lets Work Together</h6>
             </div>
