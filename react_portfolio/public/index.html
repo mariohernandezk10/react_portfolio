@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <!-- not sure why this link is giving an error in source -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <title>Mario's Portfolio</title>
+    
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://kit.fontawesome.com/0c8909253c.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      console.log(document);
+      $(document).ready(function () {
+// In this function we are using an event listener using jquery to listen for 
+// a click on the hamburger menu, we do this by grabbing the tag by its class
+    $('.menu-toggler').on('click', function () {
+        // here we are hiding and showing the class "open" via the method toggleClass
+        // Info about toggleClass https://api.jquery.com/toggleclass/
+        $(this).toggleClass('open');
+        
+        $(".top-nav").toggleClass('open');
+    });
+
+    $('.top-nav .nav-link').on('click', function () {
+        $('.menu-toggler').removeClass('open');
+        $(".top-nav").removeClass('open');
+    });
+
+    $('nav a[href*="#"]').on('click', function () {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top - 100
+        }, 2000);
+    });
+
+    $('#up').on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 2000);
+    });
+
+    AOS.init({
+        easing: 'ease',
+        duration: 1800,
+        once: true
+    });
+
+});
+    </script>
+
+    <div id="root"></div>
+
+  </body>
+</html>
