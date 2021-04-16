@@ -1,7 +1,7 @@
 import React from 'react';
 import Dog from '../../images/dog.png';
-// import Myphoto from '../../images/Profile.jpg';
-// import Myphoto from '../../images/Profile.jpg';
+import Book from '../../images/book.png';
+import Music from '../../images/music.png';
 
 
 function Portfolio() {
@@ -16,7 +16,7 @@ function Portfolio() {
 
             <div className="portfolio-item">
                 <div className="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-                    {/* <img src="./images/topTen.png" alt="image of top ten project"> */}
+                    <img src={Music} alt="music website"/>
                 </div>
                 <div className="portfolio-description" data-aos="fade-left" data-aos-delay="600">
                     <h6>Web Development</h6>
@@ -47,17 +47,16 @@ function Portfolio() {
 
             <div className="portfolio-item">
                 <div className="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
-                    {/* <img src="./images/workDay.png" alt="tree"> */}
+                    <img src={Book} alt="book website"/>
                 </div>
                 <div className="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
                     <h6>Web Development</h6>
-                    <h1>Work Day Scheduler</h1>
+                    <h1>Library</h1>
                     <p>
-                        What's your schedule today? If you're still figuring that
-                        out let me help you with this website.
+                        What's your favorite book? Let's find it!
                     </p>
-                    <a href="https://mariohernandezk10.github.io/Homework_-5/" className="cta" target="blank">Deploy</a>
-                    <a href="https://github.com/mariohernandezk10/Homework_-5" className="cta" target="blank">github repo</a>
+                    <a href="https://mvplibrary.herokuapp.com/member" className="cta" target="blank">Deploy</a>
+                    <a href="https://github.com/MigsGithub/MVP_Library" className="cta" target="blank">github repo</a>
                 </div>
             </div>
         </div>
