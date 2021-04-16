@@ -14,21 +14,21 @@ function Experience() {
                 <ul>
                     <li className="date" data-date="2021 - Present">
                         <h1>Shepperd Construction</h1>
-                        <p>Supervise groups of construction workers
-                            Create a log of everything that was done and needs to be done
+                        <p>Supervise groups of construction workers <br/>
+                            Create a log of everything that was done and needs to be done <br/>
                             Pick up material and supplies</p>
                     </li>
                     <li className="date" data-date="2016 - Present">
                         <h1>Team Enterprise</h1>
-                        <p>Promote beer brands at local bars
-                            Engage consumers through sampling products during on and off premise events
-                            Complete detailed recap of event and upload pictures of event
+                        <p>Promote beer brands at local bars<br/>
+                            Engage consumers through sampling products during on and off premise events<br/>
+                            Complete detailed recap of event and upload pictures of event<br/>
                             Facilitate effective communication between client, event manager, and promotional specialists</p>
                     </li>
                     <li className="date" data-date="2020 - 2021">
                         <h1>Electrical Apprentice</h1>
-                        <p>Support electrician in the maintenance, operation, and repair of electrical systems
-                            Bend conduit and mount electrical boxes
+                        <p>Support electrician in the maintenance, operation, and repair of electrical systems<br/>
+                            Bend conduit and mount electrical boxes<br/>
                             Install light fixtures and outlets</p>
                     </li>
                 </ul>
