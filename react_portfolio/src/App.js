@@ -12,9 +12,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-      </header> */}
+    <>
       <Header className="App-header"></Header>
       <About/>
       <Services/>
@@ -22,7 +20,7 @@ function App() {
       <Experience/>
       <Contact/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
