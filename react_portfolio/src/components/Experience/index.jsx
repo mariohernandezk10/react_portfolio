@@ -12,24 +12,24 @@ function Experience() {
             </div>
             <div className="timeline" data-aos="fade-down" data-aos-delay="300">
                 <ul>
-                    <li className="date" data-date="2011 - Present">
-                        <h1>Google</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur
-                            adipisicing elit. Libero, numquam nam beatae
-                            dolorum sunt maiores praesentium doloribus.</p>
+                    <li className="date" data-date="2021 - Present">
+                        <h1>Shepperd Construction</h1>
+                        <p>Supervise groups of construction workers
+                            Create a log of everything that was done and needs to be done
+                            Pick up material and supplies</p>
                     </li>
-                    <li className="date" data-date="2013 - Present">
+                    <li className="date" data-date="2016 - Present">
                         <h1>Team Enterprise</h1>
                         <p>Promote beer brands at local bars
                             Engage consumers through sampling products during on and off premise events
                             Complete detailed recap of event and upload pictures of event
                             Facilitate effective communication between client, event manager, and promotional specialists</p>
                     </li>
-                    <li className="date" data-date="2015 - Present">
-                        <h1>Google</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur
-                            adipisicing elit. Libero, numquam nam beatae
-                            dolorum sunt maiores praesentium doloribus.</p>
+                    <li className="date" data-date="2020 - 2021">
+                        <h1>Electrical Apprentice</h1>
+                        <p>Support electrician in the maintenance, operation, and repair of electrical systems
+                            Bend conduit and mount electrical boxes
+                            Install light fixtures and outlets</p>
                     </li>
                 </ul>
             </div>
