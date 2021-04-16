@@ -16,27 +16,27 @@ function Services() {
                         <i className="fas fa-layer-group"></i>
                     </div>
                     <h1>Web Design</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur
+                    {/* <p>Lorem, ipsum dolor sit amet consectetur
                         adipisicing elit. Libero, numquam nam beatae
-                        dolorum sunt maiores praesentium doloribus.</p>
+                        dolorum sunt maiores praesentium doloribus.</p> */}
                 </div>
                 <div className="skill" data-aos="fade-in" data-aos-delay="600">
                     <div className="icon-container">
                         <i className="fas fa-code"></i>
                     </div>
                     <h1>Web Development</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur
+                    {/* <p>Lorem, ipsum dolor sit amet consectetur
                         adipisicing elit. Libero, numquam nam beatae
-                        dolorum sunt maiores praesentium doloribus.</p>
+                        dolorum sunt maiores praesentium doloribus.</p> */}
                 </div>
                 <div className="skill" data-aos="fade-in" data-aos-delay="900">
                     <div className="icon-container">
                         <i className="fas fa-chart-bar"></i>
                     </div>
                     <h1>Product Strategy</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur
+                    {/* <p>Lorem, ipsum dolor sit amet consectetur
                         adipisicing elit. Libero, numquam nam beatae
-                        dolorum sunt maiores praesentium doloribus.</p>
+                        dolorum sunt maiores praesentium doloribus.</p> */}
                 </div>
             </div>
         </div>
