@@ -8,7 +8,7 @@ This app is from my practice portfolio repo and I converted it to react.js
 Deploy app: https://enigmatic-ridge-58977.herokuapp.com/
 
 Screenshot:
-![alt text](./src/images/portfolio.png)
+![alt text](../react_portfolio/src/images/portfolio.png)
 
 ​
 ## Table of Contents 
