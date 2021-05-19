@@ -22,9 +22,16 @@ function Portfolio() {
                     <h6>Web Development</h6>
                     <h1>Top Ten Best Songs</h1>
                     <p>
-                        This website helps you find the best songs in 
+                        <strong>Story: </strong>This website helps you find the best songs in 
                         a certain genres. 
                     </p>
+                    <p>
+                        <strong>Languages Used: </strong>HTML, CSS, JS, Materialize, JQuery
+                    </p>
+                    <p>
+                        <strong>Focus: </strong>Front End
+                    </p>
+
                     <a href="https://ferdinadaguwa.github.io/musicTopTen/" className="cta" target="blank">Deploy</a>
                     <a href="https://github.com/FerdinadAguwa/musicTopTen" className="cta" target="blank">Github Repo</a>
                 </div>
@@ -35,7 +42,13 @@ function Portfolio() {
                     <h6>Web Development</h6>
                     <h1>Dog Blogs</h1>
                     <p>
-                        Want to know the nearest dog park in any city? This site does that for you.
+                        <strong>Story: </strong>Want to know the nearest dog park in any city? This site does that for you.
+                    </p>
+                    <p>
+                        <strong>Languages Used: </strong>HTML, CSS, JS, Materialize, Axios, React.js
+                    </p>
+                    <p>
+                        <strong>Focus: </strong>Front End and Backend using Google API
                     </p>
                     <a href="https://dog-blog-mvp.herokuapp.com/" className="cta" target="blank">Deploy</a>
                     <a href="https://github.com/maddycalvo1/project3" className="cta" target="blank">Github repo</a>
@@ -53,7 +66,13 @@ function Portfolio() {
                     <h6>Web Development</h6>
                     <h1>Library</h1>
                     <p>
-                        What's your favorite book? Let's find it!
+                        <strong>Story: </strong>What's your favorite book? Let's find it!
+                    </p>
+                    <p>
+                        <strong>Languages Used: </strong>HTML, CSS, JS, Bootstrap, JQuery, Materialze, Sequelize, Passport, bcrypt.js, dotenv
+                    </p>
+                    <p>
+                        <strong>Focus: </strong>Front End and Backend
                     </p>
                     <a href="https://mvplibrary.herokuapp.com/member" className="cta" target="blank">Deploy</a>
                     <a href="https://github.com/MigsGithub/MVP_Library" className="cta" target="blank">github repo</a>
